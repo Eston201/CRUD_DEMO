@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+}
+
+.tableContainer {
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.addStudent {
+    width: 200px;
+}
+
+thead, tr {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.actionBtn {
+    text-align: center;
+    line-height:1;
+    height: 30px;
+    width: 80px;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
